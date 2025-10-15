@@ -20,7 +20,7 @@ jobs:
           ALGOLIA_APP_ID: "${{ secrets.ALGOLIA_APP_ID }}"
           ALGOLIA_ADMIN_KEY: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
         run: |
-          curl -L "https://docs.google.com/spreadsheets/d/1pqd8TcEeaoYClbwvTd63tGzV3-qS7tATsnzKU23nKn0/export?format=csv&gid=0" > data.csv
+          curl -L "https://docs.google.com/spreadsheets/d/1Ml7ekZhDJJHOHTY137-FIy3O8WP_ZweHr3Kp12l2sGY/export?format=csv&gid=0" > data.csv
           
           npm init -y
           npm install algoliasearch@4 csv-parser
